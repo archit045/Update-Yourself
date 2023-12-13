@@ -5,6 +5,7 @@ import Image1 from './Update-Yourself.png'
 export default function NavBar() {
   return (
     <>
+    <div className='navclass'>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid"> 
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,6 +47,7 @@ export default function NavBar() {
           </div>
         </div>
       </nav>
+      </div>
     </>
   )
 }

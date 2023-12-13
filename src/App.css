@@ -12,6 +12,10 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.navclass{
+  width: 1500px;
+
+}
 #ab1{
   border: 2px solid black;
   border-radius: 4px;
@@ -149,7 +153,7 @@
      display: flow-root;
 }
   .cardm3{
-    width: 20rem;
+    width: 20rem; 
     height: 50px;
     padding-right: 10px;
     padding-left: 10px;
@@ -617,7 +621,7 @@
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-color: #110101;
-  color: #ffff ; /* Change to match the text color */
+  color: #ffff ; 
 }
 .cart{
   height: 50px;
